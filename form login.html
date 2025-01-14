@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form login.css">
+    
+    <title>Form Login</title>
+</head>
+<body>
+   
+    <form>
+        <h2>FORM BIODATA</h2>
+        <div>
+            <label for="fullname">Nama Lengkap</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama siswa" required>
+        </div>
+
+        
+        <div>
+            <label for="alamat">Alamat</label><br>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat siswa" required></textarea>
+        
+        </div>
+
+        <div>
+            <label for="tempat lahir">Tempat Lahir</label><br>
+            <input type="text" id="tempat lahir" name="tempat lahir" placeholder="Masukkan Tempat Lahir" required>
+        </div>
+        
+        <div>
+            <label for="tanggal lahir">Tanggal Lahir</label><br>
+            <input type="date" id="tanggal lahir" name="tanggal lahir" placeholder="Masukkan Tanggal Lahir" required>
+        </div>
+        
+        <div>
+            <label for="kelamin">Jenis Kelamin</label><br>
+            <input type="radio" id="kelamin" name="kelamin">Laki-laki <br>
+            <input type="radio" id="kelamin" name="kelamin" >Perempuan
+        </div>
+        
+        <div>
+            <label for="hobi">Hobi</label><br>
+            <input type="checkbox" id="hobi" name="hobi">Olahraga <br>
+            <input type="checkbox" id="hobi" name="hobi"  >Menyanyi <br>
+            <input type="checkbox" id="hobi" name="hobi" >Memancing <br>
+        </div>
+
+        <div>
+            <label for="kelas">Kelas</label> <br>
+            <select name="kelas" id="kelas">
+                <option value="">Pilih Kelas</option>
+                <option value="">X PPLG 1</option>
+                <option value="">X PPLG 2</option>
+            </select>
+        </div>
+
+        <button type="submit">Login</button> <br>
+        <input type="checkbox">Remember Me
+    </form>
+</body>
+</html>
